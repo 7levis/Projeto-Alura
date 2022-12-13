@@ -1,0 +1,569 @@
+/*___________Pagina: Sobre Mim - Index___________*/
+body {
+	font-family: 'Oswald', sans-serif;
+    
+}
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+
+/*___________Cabeçalho___________*/
+header{
+    background: linear-gradient(#199999, #ffffff);
+    padding: 20px 0;
+    position: relative;
+    
+ }
+ 
+.menu {   
+    width: 940px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin: 5px auto;
+ 
+}
+
+nav li {
+    display: inline;
+    margin: 0 30px;
+    
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;   
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #0074f8;
+	text-decoration: underline;
+	transition: 300ms;
+}
+
+/*___________Conteúdo___________*/
+.conteudo-perfil {
+    margin: 2em auto;
+    width: 940px;
+    padding: 2em 0;
+   
+}
+
+.caixa-perfil {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 4em;
+    
+}
+
+.texto-nome {
+    text-align: center;
+    font-size: 70px;
+ 
+}
+
+.texto-subtitulo {
+    letter-spacing: 1.5px;
+    color: #0074f8;
+    font-size: 35px; 
+    margin: 10px 0;
+}
+
+.texto-padrao {
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.texto-verde {
+    font-style: italic;
+    line-height: 1.5;
+    font-weight: bold;
+    color: rgb(0, 150, 33);
+}
+
+.texto-vermelho {
+    font-style: italic;
+    line-height: 1.5;
+    font-weight: bold;
+    color: rgb(254, 45, 45);
+}
+
+.texto-laranja {
+    font-style: italic;
+    line-height: 1.5;
+    font-weight: bold;
+    color: rgb(255, 149, 1);
+}
+ 
+.foto-perfil {
+    position: relative;
+    margin: 0 3em;
+    width: 200px;
+    border-radius: 50px;
+    border: 3px solid #98fbf4;
+    box-shadow: 10px 10px 10px 0 #494949;
+  
+}
+.conteudo-sobremim {
+    align-items: flex-end; 
+    width: 940px;
+    padding: 3em 0;
+    margin: 2em auto;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+
+}
+
+.conteudo-sobremim div{
+    align-items: center;
+    display: flex;
+    padding: 1em 0;
+    
+}
+
+.imagem-familia {
+    border: 3px solid #98fbf4;
+    border-radius: 25px;
+    width: 350px;
+    display: inline;
+    margin: 0 0 0 2em;
+    box-shadow: 10px 10px 10px 0 #494949;
+}
+
+.texto-sobremim {
+    padding: 10px;
+}
+
+.conteudo-video {
+    align-items: center;
+    display: flex;
+    padding: 2em 0;
+    margin: 2em auto;
+    width: 940px;
+    
+}   
+
+.texto-video {
+    vertical-align: top;
+    text-align: right;
+    padding: 0 0 0 2em;
+}
+
+
+.caixa-video {
+    display: inline-block;
+    position: relative;
+} 
+
+iframe {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    box-shadow: 10px 10px 10px 0 #494949;
+    
+}
+/*___________Rodapé___________*/
+footer {
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 3em 0;
+    vertical-align: middle;
+   
+}
+
+.apoio-texto{
+    font-size: 25px;
+    margin: 0 15px 0 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    color: #212121;
+    
+}
+
+.logos {
+    width: 200px;
+
+}
+
+.logos:hover {
+    scale: 1.1;
+    transition: 300ms;
+ }
+
+.divisao-logos {
+    font-size: 115px;
+    font-weight: lighter;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 30px;
+    margin: 0 10px 20px;
+    color: #212121  ;
+ 
+}
+/*___________Pagina Habilidades___________*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto 48px;
+}
+
+.habilidades ul {
+    text-align: center;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+    padding-inline-start: 50px;
+}
+
+.habilidades {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+    
+}
+
+.habilidades li {
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    vertical-align: top;
+    margin: 0 20px;
+    padding: 15px;
+    border: 3px solid #000000;
+    background-color: #f7f7f7;
+    border-radius: 32px;
+    transition: 0.8s all cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.habilidades li:nth-child(1) {
+    margin-right: 53px;
+}
+
+.habilidades li:hover {
+    border-color: #6c6e6f;
+    background-color: #c2f0f0;
+    transform: scale(1.1);
+}
+
+
+.habilidades li img {
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#logos-habilidades {
+    margin: 50px 10px;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    box-sizing: border-box; 
+}
+
+
+/*___________Pagina: Contato___________*/
+
+.conteudo-contato {
+    text-align: center;
+    width: 940px;
+    padding: 1em 0;
+    margin: 1em auto;
+}
+
+.conteudo-contato h1{
+    margin: 1em 0;
+}
+
+.conteudo-contato img{
+    width: 150px;
+    padding: 10px;
+
+}
+.conteudo-contato ul{
+    padding: 2em;
+}
+.conteudo-contato li{
+    display: inline;
+    margin: 25px;
+}
+
+/*___________Animação em Keyframe___________*/
+.container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: calc(50% - 140px);
+    left: calc(50% - 150px);
+    
+}
+.coffee-header {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #ddcfcc;
+    border-radius: 10px;
+}
+.coffee-header__buttons {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    background-color: #282323;
+    border-radius: 50%;
+}
+.coffee-header__buttons::after {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    bottom: -8px;
+    left: calc(50% - 4px);
+    background-color: #685d5d;
+}
+.coffee-header__button-one {
+    left: 15px;
+    top: 25px;
+}
+.coffee-header__button-two {
+    left: 50px; 
+}
+.coffee-header__display {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    border-radius: 50%;
+    background-color: #9acfc5;
+    border: 5px solid #43beae;
+    box-sizing: border-box;
+}
+.coffee-header__details {
+    width: 8px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #9b9091;
+    box-shadow: -12px 0 0 #9b9091, -24px 0 0 #9b9091;
+}
+.coffee-medium {
+    width: 90%;
+    height: 185px;
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 45%);
+    background-color: #bcb0af;
+}
+.coffee-medium:before {
+    content: "";
+    width: 90%;
+    height: 100px;
+    background-color: #776f6e;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 45%);
+    border-radius: 20px 20px 0 0;
+}
+.coffe-medium__exit {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 30px);
+    background-color: #231f20;
+}
+.coffe-medium__exit::before {
+    content: "";
+    width: 50px;
+    height: 20px;
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 25px);
+    background-color: #231f20;
+}
+.coffe-medium__exit::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: -30px;
+    left: calc(50% - 5px);
+    background-color: #231f20;
+}
+.coffee-medium__arm {
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    background-color: #231f20;
+}
+.coffee-medium__arm::before {
+    content: "";
+    width: 15px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: -15px;
+    background-color: #9e9495;
+}
+.coffee-medium__cup {
+    width: 80px;
+    height: 47px;
+    position: absolute;
+    bottom: 25px;
+    left: calc(50% - 40px);
+    background-color: #FFF;
+    border-radius: 0 0 70px 70px / 0 0 110px 110px;
+}
+.coffee-medium__cup::after {
+    content: "";
+    width: 17px;
+    height: 10px;
+    position: absolute;
+    top: 7px;
+    right: -13px;
+    border: 5px solid #FFF;
+    border-radius: 50%;
+}
+@keyframes liquid {
+0% {
+    height: 0px;  
+    opacity: 1;
+}
+5% {
+    height: 0px;  
+    opacity: 1;
+}
+20% {
+    height: 62px;  
+    opacity: 1;
+}
+95% {
+    height: 62px;
+    opacity: 1;
+}
+100% {
+    height: 62px;
+    opacity: 0;
+}
+}
+.coffee-medium__liquid {
+    width: 6px;
+    height: 63px;
+    opacity: 0;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 3px);
+    background-color: #74372b;
+    animation: liquid 4s 4s linear infinite;
+}
+.coffee-medium__smoke {
+    width: 8px;
+    height: 20px;
+    position: absolute;  
+    border-radius: 5px;
+    background-color: #b3aeae;
+}
+@keyframes smokeOne {
+0% {
+    bottom: 20px;
+    opacity: 0;
+}
+40% {
+    bottom: 50px;
+    opacity: .5;
+}
+80% {
+    bottom: 80px;
+    opacity: .3;
+}
+100% {
+    bottom: 80px;
+    opacity: 0;
+}
+}
+@keyframes smokeTwo {
+0% {
+    bottom: 40px;
+    opacity: 0;
+}
+40% {
+    bottom: 70px;
+    opacity: .5;
+}
+80% {
+    bottom: 80px;
+    opacity: .3;
+}
+100% {
+    bottom: 80px;
+    opacity: 0;
+}
+}
+.coffee-medium__smoke-one {
+    opacity: 0;
+    bottom: 50px;
+    left: 104px;
+    animation: smokeOne 3s 4s linear infinite;
+}
+.coffee-medium__smoke-two {
+    opacity: 0;
+    bottom: 70px;
+    left: 120px;
+    animation: smokeTwo 3s 5s linear infinite;
+}
+.coffee-medium__smoke-three {
+    opacity: 0;
+    bottom: 65px;
+    right: 115px;
+    animation: smokeTwo 3s 6s linear infinite;
+}
+.coffee-medium__smoke-for {
+    opacity: 0;
+    bottom: 50px;
+    right: 102px;
+    animation: smokeOne 3s 5s linear infinite;
+}
+.coffee-footer {
+    width: 95%;
+    height: 15px;
+    position: absolute;
+    bottom: 15px;
+    left: calc(50% - 47.5%);
+    background-color: #41bdad;
+    border-radius: 10px;
+}
+.coffee-footer::after {
+    content: "";
+    width: 106%;
+    height: 20px;
+    position: absolute;
+    bottom: -20px;
+    left: -8px;
+    background-color: #000;
+}
